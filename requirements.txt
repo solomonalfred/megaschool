@@ -1,0 +1,14 @@
+fastapi
+aiologger[aiofiles]
+pip-chill
+uvicorn
+gunicorn
+langchain_google_community
+openai==0.28.0
+langchain
+pandas
+tiktoken
+google-api-python-client
+langchain-community
+langchain_google_community
+python-dotenv
