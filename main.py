@@ -3,8 +3,8 @@ from typing import List
 
 from fastapi import FastAPI, HTTPException, Request, Response
 from pydantic import HttpUrl
-from schemas.request import PredictionRequest, PredictionResponse
-from utils.logger import setup_logger
+from request import PredictionRequest, PredictionResponse
+from logger import setup_logger
 from agent import *
 import os
 import re
